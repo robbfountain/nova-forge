@@ -6,7 +6,7 @@ use Carbon\Carbon;
 use Kregel\NovaForge\Contracts\Repositories\SiteRepositoryContract;
 use Kregel\NovaForge\NovaForge;
 use Kregel\NovaForge\NovaForgeDataStore;
-use Themsaid\Forge\Forge;
+use Laravel\Forge\Forge;
 
 class SiteRepository implements SiteRepositoryContract
 {
