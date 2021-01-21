@@ -8,7 +8,7 @@ use Kregel\NovaForge\Contracts\Repositories\ServerRepositoryContract;
 use Kregel\NovaForge\NovaForge;
 use Kregel\NovaForge\NovaForgeDataStore;
 use Prophecy\Exception\Doubler\MethodNotFoundException;
-use Themsaid\Forge\Forge;
+use Laravel\Forge\Forge;
 
 class ServerRepository implements ServerRepositoryContract
 {
